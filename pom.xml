@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.belibeerda</groupId>
+    <artifactId>retrofit</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>jar</packaging>
+    <name>Retrofit Example</name>
+
+    <properties>
+        <maven.compiler.sourse>23</maven.compiler.sourse>
+        <maven.compiler.target>23</maven.compiler.target>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.ph</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Kirill Belitskii</name>
+            <email>belitskkirill@hmail.com</email>
+            <organization>com.github.belibeerda</organization>
+            <organizationUrl>https://github.com/belibeerda/</organizationUrl>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-gson</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+    </dependencies>
+</project>
